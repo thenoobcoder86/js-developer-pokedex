@@ -163,3 +163,80 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-photo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .modal-name {
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .modal-number {
+     color:#aaa;
+     font-size :18px ;
+     text-align :center ;
+  }
+  
+  .modal-types {
+     display :flex ;
+     flex-direction :row ;
+     justify-content :center ;
+     align-items :center ;
+     list-style :none ;
+     padding :0 ;
+     margin :0 ;
+  }
+  
+  .modal-type {
+    color :#fff ;
+    padding :.5rem ;
+    margin :.5rem .25rem ;
+    font-size :.75rem ;
+    border-radius :1rem ;
+    filter :brightness(1.1) ;
+    text-align :center ;
+  } 
