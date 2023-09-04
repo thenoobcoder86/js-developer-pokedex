@@ -1,1 +1,2 @@
 # Trilha JS Developer - Pokedex
+OBS: Ao baixar e extrair o arquivo zip, favor abrir com o VisualStudioCode a pasta dentro do arquivo extraído e não a pasta principal para a visualização do arquivo index.html, se abrir o code com a primeira pasta js-developer-pokedex-main(raiz) o arquivo index.html será visualizado sem a lista completa, favor abrir com o visualcode a subpasta(js-developer-pokedex-main) de mesmo nome, após extração e o index.html carregará corretamente.
